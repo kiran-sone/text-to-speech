@@ -1,0 +1,9 @@
+{
+    "name": "example/php-project",
+	"description": "A basic starter kit for any PHP application.",
+	"type" : "project",
+    "require": {
+        "php": ">=7.4",
+        "ext-json": "*"
+    }
+}
