@@ -3,7 +3,7 @@ type: 'php:7.4' # or your specific PHP version
 web:
   locations:
     '/':
-      # root property can be omitted as the default is the root of the repository
+      root: 'public'
       index: ['index.php']
       scripts: true
       allow: true
