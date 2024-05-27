@@ -1,0 +1,9 @@
+name: app
+type: 'php:7.4' # or your specific PHP version
+web:
+  locations:
+    '/':
+      root: '.' # This points to the root directory of your project
+      index: ['index.php']
+      scripts: true
+      allow: true
